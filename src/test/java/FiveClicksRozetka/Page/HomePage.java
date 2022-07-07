@@ -21,4 +21,6 @@ public class HomePage extends BasePage{
     public WebElement getLaptopAndComputerPage() {
         return driver.findElement(By.xpath("//div[@class='fat-wrap']//li[1]//a[1]"));
     }
+
+
 }

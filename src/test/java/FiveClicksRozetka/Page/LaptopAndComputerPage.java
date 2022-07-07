@@ -14,4 +14,8 @@ public class LaptopAndComputerPage extends BasePage{
     public List<WebElement> getLaptopPage() {
         return driver.findElements(By.xpath("//a[@title= 'Ноутбуки']"));
     }
+
+    public WebElement tableLaptopAndComputersVisibile() {
+        return driver.findElement(By.xpath("//h1[contains(text(), 'Компьютеры и ноутбуки')]"));
+    }
 }
