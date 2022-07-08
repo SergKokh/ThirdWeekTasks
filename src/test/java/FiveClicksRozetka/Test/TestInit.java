@@ -1,4 +1,4 @@
-package FiveClicksRozetka;
+package FiveClicksRozetka.Test;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;

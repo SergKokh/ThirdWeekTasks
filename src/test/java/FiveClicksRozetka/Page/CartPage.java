@@ -24,4 +24,8 @@ public class CartPage extends BasePage{
     public WebElement elementEmptyCart() {
         return driver.findElement(By.xpath("//img[@class= 'cart-dummy__illustration']"));
     }
+
+    public WebElement selectBuyInCredit() {
+        return driver.findElement(By.xpath("//button[@class= 'button button--medium button--navy ng-star-inserted']"));
+    }
 }
