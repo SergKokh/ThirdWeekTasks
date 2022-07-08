@@ -10,7 +10,7 @@ public class CartPage extends BasePage{
     }
 
     public WebElement productInCart() {
-        return driver.findElement(By.xpath("//img[@data-testid='picture']"));
+        return driver.findElement(By.xpath("//a[@class= 'cart-product__title']"));
     }
 
     public WebElement clickOptionsBtn() {

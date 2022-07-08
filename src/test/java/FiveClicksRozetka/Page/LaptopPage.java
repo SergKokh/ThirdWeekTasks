@@ -21,5 +21,9 @@ public class LaptopPage extends BasePage{
     public WebElement buyBtnClick () {
             return driver.findElement(By.xpath("//button[@aria-label='Купить']//span[@class='buy-button__label ng-star-inserted']"));
         }
+
+    public WebElement getToCart() {
+        return driver.findElement(By.xpath("//button[@class='header__button ng-star-inserted header__button--active']//*[name()='svg']"));
     }
+}
 

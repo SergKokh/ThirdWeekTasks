@@ -62,7 +62,9 @@ public class TestsRozetkaHomePage extends TestInit{
         sleep(2);
         driveMouse();
         laptopPage. buyBtnClick().click();
-        sleep(2);
+        sleep(5);
+        driveMouse();
+        laptopPage.getToCart().click();
         cartPage.clickOptionsBtn().click();
         cartPage.clickDeleteBtn().click();
         sleep(3);
